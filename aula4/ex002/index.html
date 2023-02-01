@@ -10,7 +10,10 @@
     <h1>Ola mundo</h1>
     <script>
         var nome = window.prompt('qual seu nome ?')
-        window.alert('prazer em te conhecer, ' + nome)
+        window.alert(`prazer em te conhecer, ${nome.toUpperCase()}`)
+        document.write(`Daora, seu nome tem ${nome.length} letras`)
+        var age = Number.parseInt(window.prompt('Qual sua idade ?'))
+        window.alert(`seu nome é ${nome} e sua idade é ${age}`)
     </script>
     
 </body>
